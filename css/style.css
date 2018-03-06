@@ -1,0 +1,114 @@
+*{margin:0;
+padding:0;}
+/*header part starting*/
+.header {
+    background-color:#121B2A;
+    min-height :100px;
+    overflow: hidden;
+     
+}
+
+.wrapper {
+    width:80%;
+    margin: 0 auto;
+}
+
+.logo {
+    width:20%;
+    float:left;
+    
+}
+.nav {
+    width:70%;
+    float:right;
+    margin-top:24px;
+}
+.nav ul{
+   list-style:none; 
+}
+.nav ul li{
+    float: left;
+}
+.nav ul li a{
+    text-decoration:none;
+    padding:0px 8px;
+    font-size: 20px;
+}
+.nav ul li a:hover{
+    color:white;
+    
+}
+/*hadder part end*/
+
+/*banner part start*/
+.banner {
+    background-image: url(../img/banner.jpg);
+    min-height:600px;
+   background-size: cover;
+    background-position: center;
+    overflow: hidden;
+        
+}
+.banner_text{
+    width:50%;
+    margin-top:100px;
+}
+.banner_text h3{
+    color:white;
+    font-size: 40px;
+}
+.banner_text h1{
+    color:lightblue;
+    font-size:45px;
+    font-weight:bold;
+}
+.banner_text p{
+    color:white;
+    font-size:25px;
+    font-weight:normal;
+}
+
+.banner_text button{
+     padding: 13px 16px;
+    border: none;
+    border-radius: 6px;
+    background-color: white;
+    margin-top:25px;
+}
+}
+/*banner part end*/
+
+/*service start*/
+.service {
+ background-color: blue;
+    min-height: 400px;
+    overflow: hidden;
+}
+
+.service_section {
+    overflow: hidden;
+    padding-top:30px;
+}
+
+.service_all {
+    overflow:hidden;
+    float: left;
+    width:30%;
+}
+
+.content {
+    overflow: hidden;
+  
+    
+}
+
+.content_img {
+    float: left;
+    width:30%;
+}
+
+.content_text {
+    float: right;
+    width:60%;
+}
+/*service end*/
